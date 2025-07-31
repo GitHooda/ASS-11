@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #cde918;
+  
+}
+
+.container {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.counter {
+  font-size: 100px;
+  margin: 60px 0;
+  color: #333;
+}
+
+.buttons button {
+  font-size: 30px;
+  padding: 20px 40px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  transition: background 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #bd227f;
+}
+
+.buttons button:nth-child(1) {
+  background-color: #f44336;
+  color: rgb(14, 1, 14);
+}
+
+.buttons button:nth-child(2) {
+  background-color: #2196F3;
+  color: rgb(10, 0, 0)
+}
+
+.buttons button:nth-child(3) {
+  background-color: #4CAF50;
+  color: rgb(15, 1, 12);
+}
